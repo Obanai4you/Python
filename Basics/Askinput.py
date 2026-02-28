@@ -4,3 +4,8 @@ while True:
     print("Your name id:", str1 + " and Your age is:" ,age) #Concatination
 
 #Can string and interger concatinate??
+    first_name = "John"
+    last_name = "Doe"
+
+    full_name = first_name + " " + last_name
+    print(full_name)

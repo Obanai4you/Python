@@ -1,3 +1,5 @@
+#First program... 
+#using ''' inside it , i tincludes all string
 '''
 hello man
 ''' 

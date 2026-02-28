@@ -1,5 +1,5 @@
 # Implicit typecasting
-a=1.5
+a=1.5 
 b=2
 print(a+b) #result comes in float as in implicit type casting the python interpreter converts the int dataype to appropriate float type automatically to perform operatrion
 
