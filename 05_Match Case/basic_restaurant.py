@@ -1,7 +1,7 @@
 #restaurant example
 while True:
     print("Here is the menu.")
-    menu=("Pizza","Burger","Momo","Sandwich","Frenchfries","Chowmein")
+    print("Pizza","Burger","Momo","Sandwich","Frenchfries","Chowmein")
     Pizza=200
     Burger=180
     Momo=140
