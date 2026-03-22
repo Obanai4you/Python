@@ -54,24 +54,24 @@ for i in range(len(questions)):
             exit()
 
         if user_ans not in ["A", "B", "C", "D"]:
-            print("❌ Invalid input, try again!")
+            print("Invalid input, try again!")
         else:
             break
 
     # answer checking
     if user_ans == answer:
         amount = level
-        print("✅ Correct Answer!")
+        print("Correct Answer!")
         print("You won Rs.", amount)
 
         # checkpoint logic
         if amount in checkpoints:
             safe_amount = amount
-            print("🎉 Congratulations! You reached a CHECKPOINT!")
+            print("Congratulations! You reached a CHECKPOINT!")
             print("Safe amount locked at Rs.", safe_amount)
 
     else:
-        print("\n❌ Wrong Answer!")
+        print("\n Wrong Answer!")
         print("Correct answer was:", answer)
         print("You go home with Rs.", safe_amount)
         break
